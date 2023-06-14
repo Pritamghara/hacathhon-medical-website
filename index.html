@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" integrity="sha512-r22gChDnGvBylk90+2e/ycr3RVrDi8DIOkIGNhJlKfuyQM4tIRAI062MaV8sfjQKYVGjOBaZBOA87z+IhZE9DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logo.png" alt="">
+        <div>
+            <button class="lang-btn">English<img src="netflix-img/images/down-icon.png" alt=""></button>
+            <button>SignIn</button>
+        </div>
+    </nav>
+    <h1>MEDICINE SEARCH APP</h1>
+    <form action="" id="form">
+        <input id="search" type="text" placeholder="search for diesease" autocomplete="off">
+        <input id="btn" type="submit" value="search">
+    </form>
+    <div class="content">
+        <div id="photo">
+            <div id="medname"></div>
+        </div>
+        
+        <div id="data">
+            <div id="category">CATEGORY :</div>
+            <div  id="substance">ACTIVE SUBSTANCE :</div>
+            <div id="auth">AUTHORIZATION STATUS:</div>
+            <div id="gen">GENERIC STATUS:</div>
+            <div id="bio">BIOSIMILAR STATUS:</div>            
+            <div id="use">USED IN:</div>            
+            <div id="inn">SIMILAR MEDICINE:</div>            
+                       
+            <div id="company">COMPANY NAME:</div>            
+
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
